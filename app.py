@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Flask Backend Running 🚀"})
+    return jsonify({"message": "Auto Deploy Working 🔥"})
 
 @app.route('/api')
 def api():
